@@ -5,8 +5,8 @@ start.addEventListener("click",() => {
     sound();
     let player1=Math.floor(Math.random()*6+1);
     let player2=Math.floor(Math.random()*6+1);
-    document.getElementById("p1-image").src=`images/${player1}.png`;
-    document.getElementById("p2-image").src=`images/${player2}.png`;
+    document.getElementById("p1-image").src=`${player1}.png`;
+    document.getElementById("p2-image").src=`${player2}.png`;
 
     if(player1>player2){
        var result=document.querySelector("h1")
